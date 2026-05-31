@@ -1,5 +1,6 @@
 "use strict";
 //let userId: string | number;
+Object.defineProperty(exports, "__esModule", { value: true });
 // userId = 101; // no error
 // userId = "101"; // no error
 // userId = true; // error
@@ -21,3 +22,4 @@ const isEven = (num) => {
 };
 console.log(isEven(32));
 console.log(isEven('32'));
+//# sourceMappingURL=union-type.js.map
